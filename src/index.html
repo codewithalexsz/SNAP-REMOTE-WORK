@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+</head>
+<body class="font-sans">
+
+  
+<nav class="bg-white border-gray-200 dark:bg-white md:py-4 md:px-5 dark:border-gray-700">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center">
+        <img class="md:w-[100px]" src="/assets/images/logo.svg" alt="logo img">
+          
+      </a>
+      <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col md:items-center font-medium p-4 md:p-0 mt-4 border text-black border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          
+          <li>
+              <div class="flex items-center md:gap-3" style="gap: 4px;">
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:hover:text-white hover:text-white md:dark:hover:bg-transparent">Features 
+                  
+                </button>
+                <img class="  h-2" src="/assets/images/icon-arrow-down.svg" style="height: 5px; " alt="">
+              </div>
+    
+              <!-- Dropdown menu 1-->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm font-semibold text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-black dark:hover:text-black items-center ">
+                        <img  src="/assets/images/icon-todo.svg" alt="">
+                      <a href="#" class="block w-full py-2    "> Todo List</a>
+                    </li>
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-black items-center ">
+                        <img  src="/assets/images/icon-calendar.svg" alt="">
+                      <a href="#" class="block w-full py-2    "> Calender</a>
+                    </li>
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-black items-center ">
+                        <img  src="/assets/images/icon-reminders.svg" alt="">
+                      <a href="#" class="block w-full py-2    "> Reminders</a>
+                    </li>
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-black items-center ">
+                        <img  src="/assets/images/icon-planning.svg" alt="">
+                      <a href="#" class="block w-full py-2    "> Planning</a>
+                    </li>
+                    
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-black">Sign out</a>
+                  </div>
+              </div>
+          </li>
+
+
+          <li>
+            <div class="flex items-center md:gap-3" style="gap: 4px;">
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:hover:text-white hover:text-white md:dark:hover:bg-transparent">Company 
+                
+              </button>
+              <img class="  h-2" src="/assets/images/icon-arrow-down.svg" style="height: 5px; " alt="">
+            </div>
+    
+              <!-- Dropdown menu 1-->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm font-semibold text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-black items-center ">
+                        <!-- <img  src="/assets/images/icon-todo.svg" alt=""> -->
+                      <a href="#" class="block w-full py-2    "> History</a>
+                    </li>
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white items-center ">
+                        <!-- <img  src="/assets/images/icon-calendar.svg" alt=""> -->
+                      <a href="#" class="block w-full py-2    "> Our Team</a>
+                    </li>
+                    <li class="flex px-4 gap-[10px]  hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white items-center ">
+                        <!-- <img  src="/assets/images/icon-reminders.svg" alt=""> -->
+                      <a href="#" class="block w-full py-2    "> Blog</a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+                  </div>
+              </div>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Careers</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li class="" style="">
+            <div class="mt-[20px]  md:items-center md:mt-0 md:flex md:gap-4 grid justify-center">
+                <a class="login mx-auto text-lg text-gray-700 " href="">Login</a>
+                <button class="h-[50px] font-semibold rounded-xl md:my-0 my-[20px] w-[150px]" style="border: 1px solid black" >Register</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    
+
+
+
+
+
+   <!-- HERO SECTION -->
+
+
+   <section class="md:flex md:flex-row-reverse md:gap-8 md:py-[40px] md:px-8">
+    <div>
+        <img class="md:hidden" src="/assets/images/image-hero-mobile.png" alt="">
+        <img class="md:h-[85%] md:block hidden hero-desktop"  src="/assets/images/image-hero-desktop.png" alt="">
+    </div>
+    <div class="py-[40px] md:pt-[100px] px-[20px] text-center">
+        <h1 class="font-extrabold text-[30px] md:text-[60px] md:leading-[1]  mb-[10px]  tracking-wide">Make Remote Work</h1>
+        <p class="font-semibold md:my-6 text-gray-600">
+            Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+        </p>
+        <button class="h-[50px] md:mb-[60px] font-semibold rounded-xl mb-[20px] text-white my-[20px] bg-black w-[150px]">Learn more</button>
+        <div class="flex gap-[10px] justify-between mb-[15px]">
+            <img class="w-[50px] h-auto" src="/assets/images/client-databiz.svg" alt="">
+            <img class="w-[50px] h-auto" src="/assets/images/client-audiophile.svg" alt="">
+            <img class="w-[50px] h-auto" src="/assets/images/client-meet.svg" alt="">
+            <img class="w-[50px] h-auto" src="/assets/images/client-maker.svg" alt="">
+        </div>
+    </div>
+   </section>
+   <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+</body>
+</html>
